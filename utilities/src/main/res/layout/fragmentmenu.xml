@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/linterna"
+            android:src="@drawable/linterna"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/camera"
+            android:src="@drawable/camera"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/animationf"
+            android:src="@drawable/animationf"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/batman"
+            android:src="@drawable/batman"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/music"
+            android:src="@drawable/music"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/video"
+            android:src="@drawable/video"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/mapa"
+            android:src="@android:drawable/ic_dialog_map"/>
+        <android.support.v4.widget.Space
+            style="@style/espacio" />
+
+    </LinearLayout>
+
+</FrameLayout>

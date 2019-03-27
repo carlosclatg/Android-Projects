@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <group android:id="@+id/grupo1">
+                <item android:id="@+id/SubMnuOpc1"
+                    android:title="@string/satelite" />
+                <item android:id="@+id/SubMnuOpc2"
+                    android:title="@string/normal" />
+                <item android:id="@+id/SubMnuOpc3"
+                    android:title="@string/hibrido" />
+                <item android:id="@+id/SubMnuOpc4"
+                    android:title="@string/terreno" />
+            </group>
+</menu>

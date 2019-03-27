@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EAC3ccl</string>
+    <string name="flashencendido">Flash Encendido</string>
+    <string name="flashapagado">Flash apagado</string>
+    <string name="repromusica">Reproduciendo música</string>
+    <string name="stopmusica">Stop música</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="stop">stop</string>
+    <string name="comeback">Tornar enrere</string>
+    <string name="satelite">satélite</string>
+    <string name="hibrido">híbrido</string>
+    <string name="terreno">terreno</string>
+    <string name="normal">normal</string>
+    <string name="sinpermiso">Sin Permisos</string>
+    <string name="nophototaken">No has tomado foto</string>
+</resources>
