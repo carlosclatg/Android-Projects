@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EAC2_Calvo_L</string>
+    <string name="action_settings">Settings</string>
+    <string name="modificar">Modificar</string>
+    <string name="dataError">Error al conectar amb la BD</string>
+    <string name="notrobat">Error llibre no trobat</string>
+    <string name="TitolInsertar">Insertar Llibre</string>
+    <string name="TitolCercar">Buscar Llibre</string>
+    <string name="TitolDetall">Detall llibre</string>
+    <string name="TitolModificar">Modificar llibre</string>
+    <string name="faltendades">Has de completar tots els camps:</string>
+    <string name="titol">Títol:</string>
+    <string name="autor">Autor:</string>
+    <string name="editorial">Editorial:</string>
+    <string name="tipus">Tipus:</string>
+    <string name="preu">Preu:</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="netejar">NETEJAR</string>
+    <string name="tornar">TORNAR</string>
+    <string name="inserir">INSERIR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string-array name="opcions">
+        <item>Tapa dura</item>
+        <item>De butxaca</item>
+    </string-array>
+</resources>

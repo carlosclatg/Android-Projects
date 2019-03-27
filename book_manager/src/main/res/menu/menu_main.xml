@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.acme.eac2_calvo_l.MainActivity">
+
+    <item android:id="@+id/add"
+        android:title="add"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/search"
+        android:title="search"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:showAsAction="ifRoom">
+    </item> <!--Primer elemento de menú -->
+
+ <!--Segundo elemento de menú -->
+</menu>

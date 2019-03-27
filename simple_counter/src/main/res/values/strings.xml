@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EAC1_Calvo_L</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="instruccions">Escriu un interval per generar un número aleatori</string>
+    <string name="campsincomplerts">Tots els camps han d`estar emplenats</string>
+    <string name="textsegonapantalla">Endevina el numero aleatori que s`ha generat</string>
+    <string name="comprovar">COMPROVAR!</string>
+    <string name="felicitats">Ho has encertat! :D</string>
+    <string name="textintents">Ho has aconseguit en </string>
+    <string name="tornaaprovar">Torna a provar!</string>
+    <string name="warning1">Els camps han d´estar complerts</string>
+    <string name="intervalbad">El numero ha d´estar al rang</string>
+    <string name="warning2">"El valor del camp FROM ha de ser més petit que el del camp TO"</string>
+</resources>

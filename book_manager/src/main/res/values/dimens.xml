@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="Title">32dp</dimen>
+    <dimen name="Autor">24dp</dimen>
+</resources>

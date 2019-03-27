@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/eliminarllibre"
+        android:title="delete"
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/modificarllibre"
+        android:title="modify"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="ifRoom">
+    </item> <!--Primer elemento de menú -->
+
+</menu>
