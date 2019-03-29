@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <dimen name="padding_pantalla">12dp</dimen>
+        <dimen name="casilla">90dp</dimen>
+        <dimen name="textotitulo">24sp</dimen>
+        <dimen name="textoboton">18sp</dimen>
+        <dimen name="anchominboton">140dp</dimen>
+        <dimen name="altominboton">36dp</dimen>
+        <dimen name="margenboton">6dp</dimen>
+        <dimen name="botonradio">6dp</dimen>
+        <dimen name="paddingboton">6dp</dimen>
+        <dimen name="textoradio">12sp</dimen>
+        <!--sp para letras y otros, dp para distancias-->
+    </resources>

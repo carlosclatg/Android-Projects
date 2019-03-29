@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_pantalla"
+    tools:context=".MainActivity">
+    <!--Este primer layout es el recuadro que encuadra el título de 3 en raya, el botón de 1 jugador, nivel dificultad
+    y el botón de 2 jugadores-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/fondo">
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_weight="5"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <!--Contenido alineado en el centro dentro del layout android:layout_gravity-->
+
+            <!--Esta TExtView es el texto de 3_en_raya-->
+            <TextView
+                style="@style/titulo"
+                android:text="@string/app_name">
+
+            </TextView>
+            <!--Esta Boton es el primer botón de 1 jugador-->
+            <Button
+                android:id="@+id/unjug"
+                style="@style/boton"
+                android:text="@string/un_jugador">
+
+            </Button>
+            <!--Esto es para el radiogroup (los tres btones radio, únicamente puedes tener uno pulsado a diferencia de los checkbox-->
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/configd">
+
+                <RadioButton
+                    android:id="@+id/facil"
+                    style="@style/radio"
+                    android:text="@string/facil" />
+
+                <RadioButton
+                    android:id="@+id/normal"
+                    style="@style/radio"
+                    android:checked="true"
+                    android:text="@string/medio" />
+
+                <RadioButton
+                    android:id="@+id/dificil"
+                    style="@style/radio"
+                    android:text="@string/dificil" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/dosjug"
+                style="@style/boton"
+                android:text="@string/dos_jugadores">
+
+            </Button>
+
+        </LinearLayout>
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_weight="10"/>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:foregroundGravity="center"
+            android:rowCount="3"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="12dp"
+            >
+
+            <ImageView
+                android:id="@+id/a1"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/a2"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/a3"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/b1"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/b2"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/b3"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/c1"
+                style="@style/casilla"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:id="@+id/c2"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+            <ImageView
+                android:id="@+id/c3"
+                style="@style/casilla"
+                android:contentDescription="TODO"/>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

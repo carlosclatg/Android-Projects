@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+    </style>
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textotitulo</item>
+    </style> <!-- HAsta aquí el título de la app de 3 en raya -->
+    <style name="boton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/anchominboton</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/altominboton</item>
+        <item name="android:layout_margin">@dimen/margenboton</item>
+        <item name="android:textSize">@dimen/textoboton</item>
+        <item name="android:onClick">aJugar</item>
+        <item name="android:background">@drawable/boton</item>
+    </style>
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textoradio</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+    <style name="casilla"> <!--casilla en blanco-->
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:onClick">toque</item>
+        <item name="contentDescription">descrpcion</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+</resources>

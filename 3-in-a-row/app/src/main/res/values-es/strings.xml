@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3 en raya</string>
+    <string name="un_jugador">1 jugador</string>
+    <string name="dos_jugadores">2 jugadores</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Imposible</string>
+    <string name="casilla">Casilla</string>
+    <string name="circulogana">Círculos ganan</string>
+    <string name="aspagana">Cruces ganan</string>
+    <string name="empate">Empate</string>
+</resources>

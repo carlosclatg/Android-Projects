@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"> <!-- Estado del botón cuando lo mantenemos pulsado-->
+        <shape>
+            <solid android:color="#de5bd2"/>
+            <corners android:radius="@dimen/botonradio"/>
+        </shape>
+
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#303f8f"/>
+            <corners android:radius="@dimen/botonradio"/>
+        </shape>
+
+    </item>
+    <item> <!-- Estado del botón cuando no hacemos nada-->
+        <shape>
+            <gradient android:startColor="#ddbfdf" android:endColor="#2c26da"/>
+            <corners android:radius="@dimen/botonradio"/>
+        </shape>
+    </item>
+
+</selector>

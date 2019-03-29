@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Noughts and crosses</string>
+    <string name="un_jugador">1 player</string>
+    <string name="dos_jugadores">2 players</string>
+    <string name="facil">Easy</string>
+    <string name="medio">Medium</string>
+    <string name="dificil">Hard</string>
+    <string name="casilla">Tile</string>
+    <string name="circulogana">Circles win</string>
+    <string name="aspagana">Crosses win</string>
+    <string name="empate">Tie</string>
+</resources>
