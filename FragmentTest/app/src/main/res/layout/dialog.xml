@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/linearLayout1" android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageView android:id="@+id/image"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:src="@mipmap/ic_launcher" />
+        <TextView android:id="@+id/textView1"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/image" android:text="Selecciona acción a realizar" >
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/linearLayout2"
+        android:layout_width="match_parent" android:layout_height="wrap_content" >
+        <Button android:id="@+id/newFrag"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Nuevo" />
+        <Button android:id="@+id/back"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Atrás"/>
+        <Button android:id="@+id/cancel"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Cancelar"/>
+    </LinearLayout>
+</LinearLayout>
