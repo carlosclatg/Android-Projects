@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pal_clean"
+            android:title="Borrador" />
+    </group>
+    <item android:title="Colores">
+        <menu>
+            <item
+                android:id="@+id/pal_white"
+                android:title="White" />
+            <item
+                android:id="@+id/pal_blue"
+                android:title="Blue" />
+            <item
+                android:id="@+id/pal_green"
+                android:title="Green" />
+            <item
+                android:id="@+id/pal_red"
+                android:title="Red" />
+            <item
+                android:id="@+id/pal_yellow"
+                android:title="Yellow" />
+        </menu>
+    </item>
+
+</menu>

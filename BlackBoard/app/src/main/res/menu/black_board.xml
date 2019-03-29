@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.acme.blackboard.BlackBoard">
+    <item
+        android:id="@+id/action_save"
+        android:title="Save"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_clean"
+        android:title="Clean"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="withText|ifRoom"/>
+</menu>
