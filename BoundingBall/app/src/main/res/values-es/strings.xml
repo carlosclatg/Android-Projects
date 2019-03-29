@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prueba_Rebote2</string>
+
+    <string name="dificultad">Escoge nivel de dificultad:</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Normal</string>
+    <string name="dificil">Difícil</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="texto_ayuda">
+        El objetivo del juego es evitar que la pelota caiga al suelo, tocando la pelota con el dedo \n\n
+        Para empujar la pelota es necesario pulsar la pantalla en la dirección contraria
+        \n\n\n\n\n\n\\n\n\n\n\n\n\
+        Ánimo con el juego!!!
+    </string>
+    <string name="volver">Volver</string>
+</resources>

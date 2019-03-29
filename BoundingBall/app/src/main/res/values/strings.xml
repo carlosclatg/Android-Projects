@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Prueba_Rebote2</string>
+
+    <string name="dificultad">Please choose starting level:</string>
+    <string name="facil">Easy</string>
+    <string name="medio">Standard</string>
+    <string name="dificil">Dificult</string>
+    <string name="ayuda">Help</string>
+    <string name="texto_ayuda">
+        The objective of the game is to avoid the ball falling to the ground, to touch the ball with the finger \ n \ n
+        To push the ball it is necessary to press the screen in the opposite direction
+        \n \n \n \n \n \n \n \n \n \n \n \n \n \n
+        Courage with the game !!!
+    </string>
+
+    <string name="volver">Back</string>
+</resources>
